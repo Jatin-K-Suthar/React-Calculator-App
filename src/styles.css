@@ -1,0 +1,76 @@
+/* Set box-sizing property for all elements and pseudo-elements to border-box */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* Define styles for the body element */
+body {
+    margin: 0;
+    background-image: url(../Images/alexander-grey-8lnbXtxFGZw-unsplash.jpg);
+    background-size: cover;
+}
+
+/* Define styles for the calculator grid container */
+.calculator-grid {
+    display: grid;
+    margin-top: 2rem;
+    justify-content: center;
+    grid-template-columns: repeat(4, 6rem);
+    grid-template-rows: minmax(7rem, auto) repeat(5, 6rem);
+}
+
+/* Define styles for buttons inside the calculator grid */
+.calculator-grid > button {
+    cursor: pointer;
+    font-size: 2rem;
+    border: 1px solid whitesmoke;
+    outline: none;
+    background-color: rgba(227, 224, 224, 0.75);
+}
+
+/* Define button styles for hover and focus states */
+.calculator-grid > button:hover, .calculator-grid > button:focus {
+    background-color: rgba(255, 255, 255, .9);
+}
+
+/* Define a CSS class for spanning two grid columns */
+.span-two {
+    grid-column: span 2;
+    background-color: rgba(210, 209, 209, 0.75);
+}
+
+/* Define styles for the output container */
+.output {
+    border: 2px solid rgb(4,149,109);
+    /* Adding a green-ish border for the output, representing money */
+    grid-column: 1 / -1;
+    /* Span the output container across all grid columns */
+    background-color: rgba(0, 0, 0, .75);
+    /* Apply a semi-transparent black background color */
+    display: flex;
+    /* Use flexbox for layout */
+    flex-direction: column;
+    /* Arrange children in a column */
+    align-items: flex-end;
+    /* Align items to the right within the container */
+    justify-content: space-around;
+    /* Distribute space evenly between child elements */
+    padding: .75rem;
+    /* Add padding around the container */
+    word-wrap: break-word;
+    /* Allow words to wrap to the next line */
+    word-break: break-all;
+    /* Break words that are too long */
+}
+
+/* Define styles for the previous operand in the output container */
+.output .previous-operand {
+    color: rgba(255, 255, 255, .75);
+    font-size: 1.5rem;
+}
+
+/* Define styles for the current operand in the output container */
+.output .current-operand {
+    color: white;
+    font-size: 2.5rem;
+}
