@@ -2,7 +2,7 @@
 Introducing ReactMath: The React Calculator App. Immerse yourself in the world of precision and financial sophistication. Our app seamlessly combines cutting-edge technology with timeless financial elegance, offering a powerful tool for precise calculations and informed decision-making With ReactMath, you gain access to a comprehensive suite of functions that simplify complex equations and effortlessly handle everyday financial tasks. Whether you're managing budgets, calculating investments, or analyzing data, ReactMath is your reliable partner for accurate results. Experience the marriage of mathematical precision and business acumen as you navigate the world of finance with ReactMath – where numbers meet professionalism.
 
 ## Skills Demonstrated
-Lastly, behind the IPL Cricket React App lies a commitment to adhering to good coding practices. These practices ensure that the codebase is maintainable, scalable, and easy to collaborate on. 
+Behind the IPL Cricket React App lies a commitment to adhering to good coding practices. These practices ensure that the codebase is maintainable, scalable, and easy to collaborate on. 
 Here's how I've woven these principles into the project:
 
 ### HTML5, CSS3, and Javascript Mastery:
